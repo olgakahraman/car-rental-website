@@ -135,7 +135,7 @@ body {
   font-size: 16px;
   line-height: 130%;
   color: #5d5d5f;
-  margin-bottom: 60px;
+  margin: 30px;
 }
 .price-form {
   max-width: 344px;
@@ -180,7 +180,7 @@ body {
   font-size: 12px;
   opacity: 0.7;
 }
-@media(max-width:700px){
+@media(max-width:820px){
   body{
     margin-top: 50px;
     text-align: center;
@@ -191,7 +191,7 @@ body {
     margin-bottom:40px;
   }
   .main{
-    padding:50px 0 50px 0;
+    padding:70px 0 30px 0;
   }
   .main-title{
     font-size: 40px;
