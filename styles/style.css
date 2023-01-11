@@ -25,9 +25,7 @@ body {
   background-size: cover;
   padding: 104px 0 154px 0;
 }
-.main-info {
-  max-width: 855px;
-}
+
 .main-title {
   font-weight: bold;
   font-size: 80px;
@@ -165,21 +163,29 @@ body {
 }
 .footer {
   border-top: 1px solid #e5e5e5;
-  padding: 5px;
+  padding: 5px 0;
+  margin:0;
 }
 .footer .container {
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content: space-between;
+  
 }
 .rights {
   font-size: 15px;
   color: #030305;
+ text-align: end;
 }
 .github {
   font-size: 12px;
   opacity: 0.7;
 }
+footer img{
+  text-align: left;
+
+}
+
 @media (max-width: 820px) {
   body {
     margin-top: 50px;
